@@ -1,0 +1,6 @@
+Por favor, verifique a configuração de segurança do ambiente:
+- Verifique a presença do arquivo '.gitignore' e se padrões cruciais estão excluídos (.env, node_modules, logs, dist, etc.).
+- Verifique se existem arquivos .env reais ou segredos expostos nos commits ou arquivos de exemplo.
+- Identifique se segredos ou dados de produção estão hardcoded no código.
+
+Entregue um relatório estruturado no modo 'Audit Only'. Se encontrar chaves reais, não repita os segredos no relatório, apenas aponte a linha e o arquivo para rotação imediata.

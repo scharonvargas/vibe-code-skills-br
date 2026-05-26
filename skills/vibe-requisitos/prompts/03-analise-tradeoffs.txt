@@ -1,0 +1,10 @@
+Por favor, use as diretrizes da skill 'guided-discovery' para me ajudar a decidir entre diferentes caminhos técnicos para resolver o seguinte problema:
+
+O problema a ser resolvido é:
+[Descreva o problema de negócio ou tela/funcionalidade a implementar]
+
+Apresente até 3 abordagens técnicas de forma comparativa e simplificada:
+1. Para cada abordagem, defina um tamanho de complexidade (P, M, G).
+2. Explique os prós e contras de cada opção sob a perspectiva de negócio, custo técnico futuro e tempo de desenvolvimento.
+3. Forneça uma recomendação clara de qual abordagem escolher para iniciar rápido (foco no MVP) e o porquê.
+4. Conclua com uma pergunta simples de múltipla escolha para que eu possa selecionar a abordagem preferida.

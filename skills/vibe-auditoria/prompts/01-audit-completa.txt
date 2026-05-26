@@ -1,0 +1,10 @@
+Por favor, execute uma auditoria técnica completa neste projeto utilizando a skill de Audit Hardening & Refactor.
+
+Analise:
+- Qualidade e cobertura de logs estruturados.
+- Tratamento e captura de exceções em rotas ou processos críticos.
+- Fluxos de autenticação, autorização e gerenciamento de permissões.
+- Segurança no upload de arquivos.
+- Riscos de vazamento de segredos, chaves de API e tokens.
+
+Entregue apenas um relatório estruturado no modo 'Audit Only' classificando os achados em severidades (P0, P1, P2, P3) com as devidas evidências do código fonte. Não altere nenhum arquivo.

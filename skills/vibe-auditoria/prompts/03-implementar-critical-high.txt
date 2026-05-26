@@ -1,0 +1,7 @@
+Com base no plano de ação aprovado anteriormente, por favor inicie a correção dos itens de severidade Crítica (P0) e Alta (P1).
+
+Lembre-se:
+- Opere no modo 'Implement Scoped'.
+- Siga a política de diff mínimo para não misturar formatações desnecessárias com a lógica de correção.
+- Não altere regras de negócio financeiras, de permissão ou cálculo de risco sem validar as dependências.
+- Explique brevemente o que foi corrigido em cada arquivo e como testar/validar o resultado.

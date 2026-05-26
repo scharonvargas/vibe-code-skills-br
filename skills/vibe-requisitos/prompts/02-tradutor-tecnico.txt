@@ -1,0 +1,10 @@
+Por favor, utilize as diretrizes da skill 'guided-discovery' para me explicar as alterações feitas ou planejadas no projeto.
+
+O contexto das alterações ou o plano técnico é:
+[Cole o plano técnico ou lista de alterações do código aqui]
+
+Por favor:
+1. Explique em linguagem simples e de negócios o que essas alterações significam para a minha aplicação.
+2. Use analogias cotidianas para explicar os conceitos técnicos subjacentes (como mudanças de tabelas de banco de dados, fluxos de autenticação, etc.).
+3. Não use jargões sem explicá-los.
+4. Apresente os benefícios diretos (ex: performance mais rápida, menor risco de vazamento de dados, etc.) em formato de lista simples.

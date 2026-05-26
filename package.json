@@ -1,0 +1,27 @@
+{
+  "name": "vibe-code-skills-br",
+  "version": "0.1.0",
+  "description": "Skills e prompts para programação com IA, Claude Code, Codex e Antigravity.",
+  "type": "module",
+  "bin": {
+    "vibe-code-skills-br": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "coding",
+    "skills",
+    "claude-code",
+    "codex",
+    "antigravity",
+    "vibe-coding"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.3.0"
+  }
+}

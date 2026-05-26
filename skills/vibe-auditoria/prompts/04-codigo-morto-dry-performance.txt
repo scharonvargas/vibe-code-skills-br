@@ -1,0 +1,6 @@
+Por favor, analise a base de código à procura de:
+- Código morto (variáveis, funções, componentes ou arquivos não utilizados).
+- Oportunidades de aplicar o princípio DRY (Don't Repeat Yourself) de forma segura.
+- Gargalos óbvios de performance no frontend ou backend.
+
+Entregue um relatório estruturado no modo 'Audit Only' descrevendo os achados e o nível de confiança na remoção/refatoração. Não remova nenhum código neste momento.

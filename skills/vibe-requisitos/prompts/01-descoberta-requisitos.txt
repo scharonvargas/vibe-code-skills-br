@@ -1,0 +1,10 @@
+Por favor, use as diretrizes da skill 'guided-discovery' para me ajudar a modelar uma nova ideia.
+
+Eu tenho uma ideia inicial ou um problema que quero resolver:
+[Cole sua ideia inicial aqui - ex: "Quero criar um sistema de agendamento de consultas de petshop"]
+
+Por favor:
+1. Decomponha essa ideia no menor escopo de MVP (Minimum Viable Product) possível.
+2. Identifique o problema de negócio central que esta funcionalidade resolve.
+3. Faça até 3 perguntas simples de múltipla escolha para esclarecer as maiores incertezas sobre o que eu espero do fluxo.
+4. Explique qualquer conceito técnico necessário usando uma analogia intuitiva.

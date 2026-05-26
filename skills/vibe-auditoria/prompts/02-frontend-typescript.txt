@@ -1,0 +1,9 @@
+Por favor, analise a qualidade de tipos em TypeScript e a componentização do frontend React deste projeto.
+
+Verifique:
+- Uso inadequado de 'any' e type castings perigosos ('as', '!').
+- Acoplamento de regras de negócio ou chamadas de API em componentes de UI.
+- Prop drilling excessivo e má utilização de Context API.
+- Renderizações desnecessárias e problemas comuns no estado do React.
+
+Entregue um relatório estruturado no modo 'Audit Only' contendo as evidências e o impacto de cada achado.
