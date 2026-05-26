@@ -60,6 +60,25 @@ npx vibe-code-skills-br install --global
 *   **Ideal para**: Modelagem de negócios e tradução técnica. Perfeito para programadores novatos ou clientes sem background técnico.
 *   **Como funciona**: Ensina a IA a substituir jargões técnicos complexos (como APIs, DB migrations) por analogias do dia a dia (garçons, caixas de mudança) e foca em definir o "impacto de negócios" das mudanças antes do código.
 
+### 4. 🛡️ Proteção de Git e Credenciais (`vibe-git-guard`)
+*   **Ideal para**: Impedir o commit acidental de arquivos confidenciais (ex: `.env`, chaves privadas, certificados) e vazamento de tokens para o repositório.
+*   **Como funciona**: Instruirá a IA a validar o `.gitignore` e ignorar segredos em ignore files específicos (`.cursorignore`, `.claudeignore`). Também fornece um script utilitário para instalar um hook de pré-commit local que varre o diff de código em busca de segredos antes que o commit seja gerado.
+
+### 🛡️ Como as Skills combatem falhas de segurança e qualidade
+
+O uso destas instruções estruturadas ajuda a prevenir e corrigir ativamente as falhas mais comuns de segurança e qualidade de código:
+
+*   **🧾 Logs ruins**: Exigem o uso de logs estruturados e evitam logs redundantes ou que imprimam dados sensíveis de usuários em ambientes de produção.
+*   **🧨 Tokens e senhas expostos**: Varrem proativamente o código em busca de chaves de API, tokens e segredos em formato de texto simples, forçando o uso de variáveis de ambiente.
+*   **📁 Uploads inseguros**: Exigem verificações rígidas de tipos de arquivo (MIME types), limites de tamanho e sanitização de nomes para evitar Path Traversal e Execução Remota de Código (RCE).
+*   **🧠 Problemas de arquitetura**: Impedem acoplamentos indesejados e cobram a separação correta de responsabilidades (ex: separando lógica de negócios de interfaces e controladores).
+*   **⚛️ React mal organizado**: Evitam hooks ineficientes, re-renderizações excessivas, vazamentos de memória e componentes gigantescos que dificultam a manutenção.
+*   **🟦 TypeScript fraco com muito `any`**: Bloqueiam o uso descuidado de `any`, exigindo definições de interfaces e tipos estritos para aproveitar ao máximo a segurança do compilador.
+*   **🐌 Problemas de performance**: Identificam e mitigam consultas lentas a bancos de dados, queries N+1, loops ineficientes e pacotes de terceiros desnecessariamente pesados.
+*   **♻️ Código duplicado**: Localizam trechos semelhantes em diferentes arquivos e recomendam a extração de funções ou componentes utilitários para manter o princípio DRY.
+*   **🧹 Código morto**: Detectam e propõem a remoção segura de dependências, arquivos órfãos, variáveis declaradas mas não usadas e blocos órfãos no fluxo de código.
+*   **🛡️ Refatoração segura**: Garantem uma abordagem cirúrgica em modificações (modo *Implement Scoped*) acompanhada de planos detalhados de rollback e testes de regressão.
+
 ---
 
 ## 🎛️ Mesclagem Inteligente de Instruções

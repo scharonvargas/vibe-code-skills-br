@@ -36,7 +36,7 @@ Avance para a próxima fase apenas após aprovação explícita do usuário:
 ### FASE 3: Execução (`/vibe-execute`)
 1. Inicie a codificação no workspace do usuário.
 2. Para cada componente modificado, atualize a lista no seu Artefato local de Plano para `[x]`, e atualize o `SCRATCHPAD.md` com anotações de erros e resoluções.
-3. Você pode se invocar ou mudar de contexto usando outras skills secundárias (como `audit-hardening-refactor`).
+3. Você pode se invocar ou mudar de contexto usando outras skills secundárias (como vibe-auditoria para qualidade/refatoração, vibe-git-guard para proteção de credenciais no Git, e vibe-requisitos para descoberta guiada).
 
 ### FASE 4: Verificação (`/vibe-verify`)
 1. Peça ao usuário para rodar os testes via interface ou verificar a build local, ou analise os marcadores de erro estático nativos (squiggly lines do TypeScript/Linter) presentes nos arquivos abertos da IDE.

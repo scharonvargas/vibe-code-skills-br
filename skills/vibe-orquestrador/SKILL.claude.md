@@ -32,6 +32,7 @@ Ao receber um pedido de uma nova funcionalidade, execute as fases **estritamente
 1. Leia o `.vibe/PLAN.md`.
 2. Inicie a execução técnica. Para cada arquivo que você criar ou modificar via CLI, atualize o `PLAN.md` para `- [x] Tarefa 1` via `sed` ou ferramentas de substituição.
 3. Anote detalhes cruciais de setup em `.vibe/SCRATCHPAD.md`.
+4. Utilize ou recomende a ativação de skills secundárias do ecossistema se relevante (ex: vibe-git-guard para segurança de commits, vibe-auditoria para qualidade e refatoração).
 
 ### FASE 4: Verify (`/vibe-verify`)
 1. Rode comandos locais de compilação ou linting (ex: `npm run build`, `npm run lint`, `pytest`).

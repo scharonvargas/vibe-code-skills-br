@@ -26,7 +26,9 @@ const SKILL_ALIASES = {
   'orquestrador-projeto-vibe': 'vibe-orquestrador',
   'descoberta-guiada-requisitos': 'vibe-requisitos',
   'auditoria-seguranca-refatoracao': 'vibe-auditoria',
-  'audit-hardening-refactor': 'vibe-auditoria'
+  'audit-hardening-refactor': 'vibe-auditoria',
+  'git-guard': 'vibe-git-guard',
+  'git-seguro': 'vibe-git-guard'
 };
 
 function resolveSkillName(name) {
